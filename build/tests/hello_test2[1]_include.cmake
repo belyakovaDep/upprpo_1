@@ -1,0 +1,5 @@
+if(EXISTS "/home/aboba/Загрузки/UPPRPO/build/tests/hello_test2[1]_tests.cmake")
+  include("/home/aboba/Загрузки/UPPRPO/build/tests/hello_test2[1]_tests.cmake")
+else()
+  add_test(hello_test2_NOT_BUILT hello_test2_NOT_BUILT)
+endif()
